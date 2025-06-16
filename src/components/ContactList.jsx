@@ -5,7 +5,7 @@ const ContactList = () => {
   const { contacts } = useContext(ContactContext);
 
   return (
-    <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div className="w-124 grid grid-cols-1 sm:grid-cols-2 gap-6">
       {contacts.map((contact, index) => (
         <div
           key={index}
