@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, createContext } from "react";
-import ContactForm from "./components/contactForm";
-import ContactList from "./components/contactList";
+import ContactForm from "./components/ContactForm";
+import ContactList from "./components/ContactList";
 import { ContactProvider } from "./components/ContactContext";
 
 const ContactCardApp = () => {
